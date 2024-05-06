@@ -25,10 +25,10 @@ function App() {
         <header className="bg-dark text-light py-3">
           <div className="container">
             <div className="mb-2 row justify-content-between">
-              <Link to="" className="col-auto link-unstyled">
+              <Link to="/react-articulos" className="col-auto link-unstyled">
                 <h1 className="h1-style py-0">Articulos</h1>
               </Link>
-              <Link to="/login" className="col-auto my-auto py-0">
+              <Link to="/react-articulos/login" className="col-auto my-auto py-0">
                 <button className="btn btn-success mx-1">Login</button>
               </Link>
             </div>
@@ -36,9 +36,9 @@ function App() {
         </header>
         <div className="container mt-5">
           <Routes>
-            <Route path="" element={<Articulos onLogin={handleLogin} />} />
+            <Route path="/react-articulos" element={<Articulos onLogin={handleLogin} />} />
             <Route
-              path="/login"
+              path="/react-articulos/login"
               element={
                 !iniciarSession ? (
                   <Login onLogin={handleLogin} />
