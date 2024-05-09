@@ -11,10 +11,6 @@ Rubén Álvarez Fernández.
 Desarrollador de aplicaciones web.
 
 ## Descargarlo
-+ Empiezas introduciendo en la terminal:
-
-  git clone https://github.com/NEBUR342/aviones.git
-+ Cambias los datos en el fichero .env.
 + Introduces en la terminal:
 
-  composer update
+  git clone https://github.com/NEBUR342/react-articulos.git
