@@ -18,5 +18,4 @@ Desarrollador de aplicaciones web.
 + Para ejecutarlo hay 2 opciones:
 
   npm run build
-
   yarn start
