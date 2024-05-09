@@ -14,3 +14,9 @@ Desarrollador de aplicaciones web.
 + Introduces en la terminal:
 
   git clone https://github.com/NEBUR342/react-articulos.git
+
++ Para ejecutarlo hay 2 opciones:
+
+  npm run build
+
+  yarn start
